@@ -1,18 +1,22 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!65 &7627944959454218798
-BoxCollider:
+--- !u!114 &11439152527139252
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7634520970625641372}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.06, y: 0.040268354, z: 0.03218462}
-  m_Center: {x: 0.12, y: -0.00018398464, z: 0.007034674}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b06cf77444ff4e80adc50830b9f5cae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  arrowCount: 10
+  arrowPrefab: {fileID: 139936650800694939, guid: bd27e6cd420f0422e984fd262976fd0d,
+    type: 3}
+  bowPrefab: {fileID: 7773486892498189445}
+  pullBowSpeed: 50
 --- !u!1 &7773486892498189445
 GameObject:
   m_ObjectHideFlags: 0
@@ -105,10 +109,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6965706912871622207}
     m_Modifications:
+    - target: {fileID: 639183336, guid: bd27e6cd420f0422e984fd262976fd0d, type: 3}
+      propertyPath: bowPrefab
+      value: 
+      objectReference: {fileID: 7773486892498189445}
     - target: {fileID: 139936650800694939, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_Name
-      value: arrow
+      value: arrowSpwanPoint
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
@@ -118,22 +126,22 @@ PrefabInstance:
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 109.165634
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 15.1922
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 15.192203
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -10.579858
+      value: -7.3
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
@@ -143,27 +151,27 @@ PrefabInstance:
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.0096736
+      value: 0.32
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9974877
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.07084064
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 773201903549471777, guid: bd27e6cd420f0422e984fd262976fd0d,
         type: 3}
@@ -180,7 +188,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -1882096737117678727, guid: bd27e6cd420f0422e984fd262976fd0d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bd27e6cd420f0422e984fd262976fd0d, type: 3}
 --- !u!1 &7634520970625641372 stripped
 GameObject:

@@ -1,0 +1,33 @@
+﻿<Properties StartupConfiguration="{35C7F485-FBF0-64E0-1B87-D9692D7AB01A}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ShootForce.cs">
+    <Files>
+      <File FileName="Assets/Scripts/SpwanArrow.cs" Line="10" Column="26" />
+      <File FileName="Assets/Scripts/ShootForce.cs" Line="9" Column="27" />
+      <File FileName="Assets/Scripts/ScoreController.cs" Line="15" Column="25" />
+      <File FileName="Assets/PlayerSpwanner.cs" Line="13" Column="103" />
+      <File FileName="Assets/Scripts/SetAim.cs" Line="12" Column="23" />
+      <File FileName="Assets/Scripts/LogInController.cs" Line="34" Column="6" />
+      <File FileName="Assets/Scripts/PhotonConnection.cs" Line="12" Column="46" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Archery_Fps_Game" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="ShootForce.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="bdc5f920-34c9-43c7-b31b-4967a3c0f1ae" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

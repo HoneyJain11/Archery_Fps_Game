@@ -11,9 +11,11 @@ GameObject:
   - component: {fileID: 140125632961417896}
   - component: {fileID: 3917577591050509581}
   - component: {fileID: 1277614206266927559}
+  - component: {fileID: 1984971169}
+  - component: {fileID: 341373274}
   m_Layer: 0
   m_Name: Target
-  m_TagString: Untagged
+  m_TagString: Target
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -82,6 +84,37 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!114 &1984971169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772933764067608594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 597c815bc0c2d405497e98289df8b109, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 0}
+  spwanArrow: {fileID: 0}
+  winPanel: {fileID: 0}
+  losePanel: {fileID: 0}
+  winCloseButton: {fileID: 0}
+  looseCloseButton: {fileID: 0}
+--- !u!135 &341373274
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 772933764067608594}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.44899932
+  m_Center: {x: 0.002802729, y: -0.0030148807, z: -0.0009237225}
 --- !u!1 &5399206625428782803
 GameObject:
   m_ObjectHideFlags: 0
